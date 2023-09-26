@@ -19,8 +19,8 @@ public class Exercise9 {
 		
 		edad = edad + 1;
 		
-		
 		System.out.println("Su edad es: " + edad + " años");
+		
 	 
 //Cierre
 		sc.close();

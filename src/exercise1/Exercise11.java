@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class Exercise11 {
 
 	public static void main(String[] args) {
-		// Declaramos las variables
+		// TODO Auto-generated method stub
+		//Declaramos las variables
 		double nota1, nota2, media;
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner (System.in);
 		
 		//Instrucciones
-		System.out.println("Primera nota:");
-		System.out.println("Segunda nota:");
+		System.out.println("Primera nota: ");
+		System.out.println("Segunda nota: ");
 		
 		nota1 = sc.nextDouble();
 		nota2 = sc.nextDouble();
