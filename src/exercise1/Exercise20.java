@@ -11,7 +11,7 @@ public class Exercise20 {
 		int numero;
 		
 		//Variable para indicar si es par o impar
-		boolean num;
+		boolean esPar;
 		
 		//Scanner para leer el teclado
 		Scanner sc = new Scanner(System.in);
@@ -23,10 +23,10 @@ public class Exercise20 {
 		numero = sc.nextInt();
 		
 		//Condición para que sea par 
-		num = numero % 2 == 0;
+		esPar = numero % 2 == 0;
 
 		//Mostramos si es par o impar 
-		System.out.println(num ? "Ese número es par":"Ese número es impar");
+		System.out.println(esPar ? "Ese número es par":"Ese número es impar");
 		
 		//Cerramos el Scanner
 		sc.close();

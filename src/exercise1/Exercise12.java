@@ -5,26 +5,34 @@ import java.util.Scanner;
 public class Exercise12 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//Declaramos las variables
-				Scanner sc = new Scanner (System.in);
-				double longitud, área;
-				double radio;
-				
-				//Instrucciones
-				
-				System.out.print("Escriba un radio: ");
-				
-				radio = sc.nextDouble();
-				longitud = 2 * Math.PI * radio;
-				área= Math.PI * (radio * radio);
-				
-				System.out.println("Longitud: " + longitud );
-				System.out.println("Área: " + área);
-				
-				//Cierre
-				sc.close();
 
+		//Scanner para leer el teclado
+		Scanner sc = new Scanner(System.in);
+		
+		//Variables para guardar la longitud y área de la circunferencia
+		double longitud, área;
+		
+		//Variable para guardar el radio de la circunferencia
+		double radio;
+		
+		//Le pedimos al usuario que nos diga un radio
+		System.out.print("Escriba un radio: ");
+		
+		//Leemos el número
+		radio = sc.nextDouble();
+		
+		//Operación para calcular la longitud de la circunferencia
+		longitud = 2 * Math.PI * radio;
+		
+		//Operación para calcular el área de la circunferencia
+		área = Math.PI * (radio * radio);
+		
+		//Le decimos al usuario cual sera la longitud y cual el área
+		System.out.println("Longitud: " + longitud);
+		System.out.println("Área: " + área);
+		
+		//Cerramos el Scanner
+		sc.close();
 
 	}
 

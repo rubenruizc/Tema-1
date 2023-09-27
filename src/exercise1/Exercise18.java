@@ -5,48 +5,61 @@ import java.util.Scanner;
 public class Exercise18 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// Declaramos las variables de los productos vendidos
-		int manzana, pera;
+		//Constante del precio del kilo de manzana
+		final float PRECIO_MANZANA = 2.35f;
 		
-		//Declaramos las variables de los kilos de cada producto
-		double kiloman, kilopera, total;
+		//Constante del precio del kilo de peras
+		final float PRECIO_PERAS = 1.95f;
+		
+		//Variable de la cantidad de kilos de manzanas vendidos
+		float kiloManzana;
+		
+		//Variable de la cantidad de kilos de peras vendidos
+		float kiloPera;
+		
+		//Variable para calcular el precio total de manzanas y peras
+		float total;
+		
+		//Variable para calcular cuanto dinero ha ganado con las manzanas
+		float total1;
+		
+		//Variable para calcular cuanto dinero ha ganado con las peras
+		float total2;
 		
 		//Scanner para poder leer el teclado
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner (System.in);
 		
-		//Asignamos el precio a cada uno
-		kiloman = 2.35;
-		kilopera = 1.95;
-
-		//Preguntamos al usuario sobre los kilos vendidos de manzana
-		System.out.print("Kilos de manzanas vendidas en todo el año: ");
+		//Le preguntamos al usuario cuantos kilos de manzanas ha vendido
+		System.out.println("¿Cuantos kilos de manzanas has vendido este año?");
 		
-		//Leemos el número
-		manzana= sc.nextInt();
+		//Leemos el número de kilos de manzanas
+		kiloManzana = sc.nextFloat();
 		
-		//Preguntamos al usuario sobre los kilos vendidos de peras
-		System.out.print("Kilos de peras vendidas en todo el año: ");
+		//Le preguntamos al usuario cuantos kilos de peras ha vendido
+		System.out.println("¿Cuantos kilos de peras has vendido este año?");
 		
-		//Leemos el número
-		pera= sc.nextInt();
+		//Leemos el número de kilos de peras
+		kiloPera = sc.nextFloat();
 		
-		//Espacio de separación
+		//Operación para saber el total de dinero conseguido con manzanas y peras
+		total = (kiloManzana * PRECIO_MANZANA) + (kiloPera * PRECIO_PERAS);
+		
+		//Operación para saber el total de dinero conseguido con manzanas
+		total1= kiloManzana * PRECIO_MANZANA;
+		
+		//Operación para saber el total de dinero conseguido con peras
+		total2 = kiloPera * PRECIO_PERAS;
+		
+		//Espacio entre línea y línea
 		System.out.println();
 		
-		//Expresamos cuanto dinero ha ganado por kilo de manzanas
-		System.out.println("Usted ha conseguido un total de: " + manzana * kiloman + " euros con las manzanas");
+		//Le decimos al usuario cuanto dinero ha ganado en total
+		System.out.print("Usted ha ganado un total de " + total + " euros.");
 		
-		//Expresamos cuanto dinero ha ganado por kilo de peras
-		System.out.println("Usted ha conseguido un total de: " + pera * kilopera + " euros con las peras");
+		//Le decimos al usuario cuanto dinero ha ganado por una parte con las manzanas y por otra parte con las peras
+		System.out.println("De esos " + total + ", " + total1 + " euros son de manzanas y " + total2 + " euros son de peras");
 		
-		//Operación para saber cuanto ha ganado en total
-		total= (pera*kilopera) + (manzana*kiloman);
-		
-		//Expresamos cuanto ha ganado en total 
-		System.out.println("En total has ganado: " + total + " euros");
-		
-		//Cierre
+		//Cerramos el Scanner
 		sc.close();
 		
 

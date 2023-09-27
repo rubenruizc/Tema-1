@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise19 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		//Declaramos las variable que nos permitira saber si el usuario es mayor de edad
 		boolean mayorEdad;
 		
