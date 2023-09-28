@@ -5,21 +5,28 @@ import java.util.Scanner;
 public class Exercise11 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//Declaramos las variables
+
+		// Variable donde guardamos las notas y la media
 		double nota1, nota2, media;
-		Scanner sc = new Scanner (System.in);
 		
-		//Instrucciones
+		// Scanner para leer el teclado
+		Scanner sc = new Scanner(System.in);
+
+		// Le pedimos al usuario la primera y la segunda nota
 		System.out.println("Primera nota: ");
 		System.out.println("Segunda nota: ");
 		
+		// Leemos los números
 		nota1 = sc.nextDouble();
 		nota2 = sc.nextDouble();
-		media = (nota1 + nota2)/2;
 		
+		// Operación para calcular la media entera
+		media = (nota1 + nota2) / 2;
+		
+		// Le decimos al usuario cual es su media
 		System.out.println("Tu media aritmética es: " + media);
 		
+		// Cerramos el Scanner
 		sc.close();
 
 	}

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise17 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		// Constante donde guardamos el valor del IVA
 		final int IVA = 21;
 		

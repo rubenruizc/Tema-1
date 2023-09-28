@@ -6,7 +6,6 @@ public class Exercise20 {
 
 	public static void main(String[] args) {
 
-		// Declaramos las variables
 		//Variable donde guardamos el número de la persona que escribe
 		int numero;
 		

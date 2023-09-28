@@ -5,30 +5,28 @@ import java.util.Scanner;
 public class Exercise9 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		//Declaración de variables 
+		// Variable donde guardamos la edad del usuario
 		int edad;
-		Scanner sc= new Scanner (System.in);
 		
+		// Scanner para leer el teclado
+		Scanner sc = new Scanner(System.in);
 		
-	//Instrucciones
+		// Le pedimos la edad al usuario
 		System.out.println("Introduzca su edad:");
 		
-		edad=sc.nextInt();
+		// Leemos el número
+		edad = sc.nextInt();
 		
+		// Operación para calcular su edad el próximo año
 		edad = edad + 1;
 		
-		System.out.println("Su edad es: " + edad + " años");
-		
-	 
-//Cierre
-		sc.close();
-	
-	
-	
-	}
+		// Le decimos al usuario cual será su edad el próximo año
+		System.out.println("Su edad el próximo año será: " + edad + " años");
 
-	
+		//Cierre
+		sc.close();
+
+	}
 
 }

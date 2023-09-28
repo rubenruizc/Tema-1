@@ -5,23 +5,24 @@ import java.util.Scanner;
 public class Exercise8 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
+		// Variable donde guardamos el número que nos va a introducir el usuario
+		int numero;
 		
-		//Declaración de variables
-int numero;
+		//Scanner para poder leer el teclado
+		Scanner sc = new Scanner(System.in);
 
-Scanner sc= new Scanner (System.in);
+		//Le pedimos un número al usuario
+		System.out.println("Introduzca su número de usuario: ");
+		
+		//Leemos el número
+		numero = sc.nextInt();
+		
+		//Le decimos cual es su número
+		System.out.println("Su número es: " + numero);
 
-//Instrucciones
-
-System.out.println("Introduzca su número de usuario:");
-numero= sc.nextInt();
-
-System.out.println("Su número es: " + numero);
-
-//Cierre
-sc.close();
+		//Cerramos el Scanner 
+		sc.close();
 
 	}
 

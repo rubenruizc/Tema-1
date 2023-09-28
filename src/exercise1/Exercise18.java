@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exercise18 {
 
 	public static void main(String[] args) {
+		
 		//Constante del precio del kilo de manzana
 		final float PRECIO_MANZANA = 2.35f;
 		

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exercise15 {
 
 	public static void main(String[] args) {
+		
 		// Variable donde guardamos el nombre que nos diga el usuario
 		String nombre;
 		
