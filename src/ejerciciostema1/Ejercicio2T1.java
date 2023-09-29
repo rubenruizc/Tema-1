@@ -13,7 +13,7 @@ public class Ejercicio2T1 {
 		int multiplo;
 		
 		// Scanner para leer el teclado
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);                                    
 		
 		// Le pedimos al usuario que nos diga un número entero
 		System.out.print("Escriba un número entero: ");
