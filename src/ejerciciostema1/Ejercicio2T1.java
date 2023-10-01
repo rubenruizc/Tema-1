@@ -12,7 +12,7 @@ public class Ejercicio2T1 {
 		// Variable donde guardamos el resto de la división entre 7
 		int multiplo;
 		
-		// Scanner para leer el teclado
+		// Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);                                    
 		
 		// Le pedimos al usuario que nos diga un número entero

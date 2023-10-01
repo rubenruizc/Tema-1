@@ -6,10 +6,22 @@ public class Ejercicio5T1 {
 
 	public static void main(String[] args) {
 
-		// Variable donde guardamos los valores de a, b, c, x, y
-		double a, b, c, x, y;
-
-		// Scanner para leer el teclado
+		// Variable donde guardamos el valor de a
+		double a;
+		
+		// Variable donde guardamos el valor de b
+		double b;
+		
+		// Variable donde guardamos el valor de c
+		double c;
+		
+		// Variable donde guardamos el valor de x
+		double x;
+		
+		// Variable donde guardamos el valor de y
+		double y;
+		
+		// Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);
 
 		// Le explicamos al usuario en que consiste el ejercicio

@@ -12,7 +12,7 @@ public class Ejercicio1T1 {
 		// Variable donde guardamos el número con decimales (también podia ser float)
 		double numerodec;
 
-		// Scanner para poder leer el teclado
+		// Scanner para poder leer del teclado
 		Scanner sc = new Scanner(System.in);
 
 		// Le pedimos al usuario que escriba un número con decimales
