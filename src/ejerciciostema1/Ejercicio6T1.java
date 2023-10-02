@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio6T1 {
 
 	public static void main(String[] args) {
+		
 		// Variable donde guardamos el valor de los segundos
 		int segundos;
 		

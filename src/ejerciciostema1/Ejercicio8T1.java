@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio8T1 {
 
 	public static void main(String[] args) {
+		
 		// Constante donde guardamos el precio de las entradas infantiles
 		final float infantil = 15.50f;
 

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio10T1 {
 
 	public static void main(String[] args) {
+		
 		// Variable donde guardaremos los metros que nos diga el usuario
 		double metros;
 

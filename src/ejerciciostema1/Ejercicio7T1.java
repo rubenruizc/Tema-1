@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio7T1 {
 
 	public static void main(String[] args) {
+		
 		// Variable donde guardamos los milímetros
 		double milimetros;
 		
