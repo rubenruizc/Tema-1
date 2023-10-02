@@ -24,7 +24,7 @@ public class Ejercicio10T1 {
 		// Leemos el número
 		metros = sc.nextDouble();
 
-		// Operación para pasar los metros a centímetros
+		// Operación para pasar de metros a centímetros
 		centimetros = 100 * metros;
 
 		// Operación para poder tener los centímetros sin decimales
