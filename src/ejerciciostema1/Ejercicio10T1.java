@@ -6,11 +6,11 @@ public class Ejercicio10T1 {
 
 	public static void main(String[] args) {
 		
-		// Variable donde guardaremos los metros que nos diga el usuario
-		double metros;
-
-		// Variable donde guardaremos los centímetros que hemos convertido
+		// Variable donde guardaremos los centímetros que nos diga el usuario
 		double centimetros;
+
+		// Variable donde guardaremos los metros que hemos convertido
+		double metros;
 
 		// Variable donde guardaremos los centímetros sin decimales
 		int centimetrosFinales;
